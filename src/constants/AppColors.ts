@@ -7,4 +7,6 @@ export class AppColors {
   static colorTitles = '#363F5F';
   static colorText = '#969CB2';
   static backgroundPrimary = '#F0F2F5';
+  static backgroundSecondary = '#D4C2FF';
+  static backgroundTertiary = '#F0F2F5';
 }

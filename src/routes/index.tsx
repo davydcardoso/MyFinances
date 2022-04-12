@@ -13,5 +13,5 @@ export const Routes: React.FC = () => {
     return <SplashScreen />;
   }
 
-  return user ? <UserRoutes /> : <AuthRoutes />;
+  return !user ? <UserRoutes /> : <AuthRoutes />;
 };
